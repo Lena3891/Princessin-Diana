@@ -1,0 +1,65 @@
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+#title {
+    margin: 0 auto; /* Zentriert das Element horizontal */
+    padding: 10px; 
+    display: block;
+    text-align: center; /* Zentriert den Text innerhalb des Elements */
+    width: 50%; /* Setzt eine maximale Breite für das Element */
+}
+.info {
+  text-align: center;
+}
+
+body {
+    background-color: lightblue;
+    font-family: Georgia;
+}
+
+img#image {
+    display: block;
+    max-width: 100%; /* Stellt sicher, dass das Bild innerhalb seines Containers bleibt */
+    height: auto; /* Behält das Seitenverhältnis des Bildes bei */
+    margin: 0 auto; /* Zentriert das Bild horizontal */
+}
+
+
+
+ul {
+    list-style: none; /* Entfernt die Standard-Bullet-Points */
+    padding: 0; /* Entfernt den Standard-Innenabstand der Liste */
+}
+#img-caption {
+  text-align: center;
+  font-size: 12px;
+  display: block;
+  position: relative;
+  
+}
+
+li {
+    font-size: 16px; /* Hier können Sie die gewünschte Schriftgröße definieren */
+    font-weight: normal; /* Entfernt das fettgedruckte Styling */
+    margin-bottom: 10px; /* Fügt einen Abstand zwischen den einzelnen Listenpunkten hinzu */
+}
+#tribute-info {
+    margin: 0 auto; /* Zentriert das Element horizontal */
+    max-width: 800px; /* Legt die maximale Breite des Elements fest */
+    padding: 20px; /* Fügt Abstand um das Element hinzu */
+}
+.link {
+    display: block; /* Ändert das Anzeigeverhalten auf Block, damit die Breite beeinflusst werden kann */
+    width: fit-content; /* Setzt die Breite auf die Breite des Inhalts */
+    margin: 0 auto; /* Zentriert das Element horizontal */
+    text-align: center; /* Zentriert den Text innerhalb des Elements */
+}
+.copyright {
+  text-align: center;
+}
